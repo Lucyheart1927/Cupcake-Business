@@ -1,0 +1,98 @@
+/* Cottontail Cupcakery — Soft Pastel Theme */
+
+:root {
+  --pastel-pink: #ffd6e8;  /* navbar & accents */
+  --bright-pink: #ff4f9e;  /* main text & highlights */
+  --light-purple: #e3ccff; /* button base */
+  --light-purple-hover: #d2b8ff;
+  --white: #ffffff;
+  --bg: #fff9fc;
+}
+
+/* Global */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg);
+  color: var(--bright-pink);
+}
+
+/* Navbar */
+.navbar-cupcake {
+  background-color: var(--pastel-pink);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-cupcake .navbar-brand,
+.navbar-cupcake .nav-link {
+  color: var(--bright-pink) !important;
+  font-weight: 600;
+}
+
+.navbar-cupcake .nav-link.active,
+.navbar-cupcake .nav-link:hover {
+  text-decoration: underline;
+  color: var(--bright-pink) !important;
+}
+
+/* Buttons */
+.btn-cupcake {
+  background-color: var(--light-purple);
+  border: none;
+  color: var(--white); /* white text */
+  font-weight: 600;
+}
+
+.btn-cupcake:hover {
+  background-color: var(--light-purple-hover);
+  color: var(--white);
+}
+
+.btn-outline-cupcake {
+  background-color: transparent;
+  border: 1.5px solid var(--light-purple);
+  color: var(--bright-pink);
+  font-weight: 600;
+}
+
+.btn-outline-cupcake:hover {
+  background-color: var(--light-purple);
+  color: var(--white);
+}
+
+/* Cards */
+.card-cupcake {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  color: var(--bright-pink);
+}
+
+.card-cupcake img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card-cupcake .card-title {
+  font-weight: 700;
+  color: var(--bright-pink);
+}
+
+/* Soft Section Background */
+.bg-cupcake-soft {
+  background-color: #fff0f6;
+}
+
+/* Footer */
+footer {
+  background-color: var(--pastel-pink);
+  color: var(--bright-pink);
+  font-weight: 500;
+}
+/* Thin rectangle banner at top */
+.hero-img {
+  width: 100%;
+  height: 250px;        /* Adjust the height for how “thin” you want the rectangle */
+  object-fit: cover;    /* Keeps proportions and crops edges evenly */
+  object-position: center;
+  border-radius: 20px;  /* Soft pastel corner rounding */
+}

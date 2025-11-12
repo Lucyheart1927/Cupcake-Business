@@ -3,10 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Cottontail Cupcakery — Baked Fresh Daily</title>
+    <title>Usagi Puffs — Sweet Moments, Baked Fresh Daily</title>
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
 
     <!-- Theme CSS -->
     <link rel="stylesheet" href="style.css?v=1" />
@@ -16,26 +20,35 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light navbar-cupcake sticky-top" data-bs-theme="light">
       <div class="container">
-        <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#top">
-          <span class="brand-mark">🧁</span> Cottontail Cupcakery
-        </a>
+        <a class="navbar-brand fw-bold" href="index.html">Usagi Puffs</a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
-          aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+          aria-controls="nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div id="nav" class="collapse navbar-collapse">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#top">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
-            <li class="nav-item"><a class="nav-link" href="#custom">Custom Orders</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#visit">Visit</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="custom.html">Custom Orders</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
           </ul>
 
           <form class="d-flex ms-lg-3 mt-3 mt-lg-0" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search flavors..." aria-label="Search" />
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search treats..."
+              aria-label="Search"
+            />
             <button class="btn btn-cupcake" type="submit">Search</button>
           </form>
         </div>
@@ -45,67 +58,78 @@
     <!-- HERO -->
     <header id="top" class="py-5 text-center hero">
       <div class="container">
-        <img src="images/cupcake-hero.jpg" class="img-fluid mb-4 hero-img rounded-4 shadow-sm"
-             alt="Assorted pastel cupcakes with sprinkles" />
+        <img
+          src="images/top.png"
+          class="img-fluid mb-4 hero-img rounded-4 shadow-sm"
+          alt="Assorted pastel pastries and puffs"
+        />
         <h1 class="display-5 fw-bold">Sweet Moments, Baked Fresh Daily</h1>
         <p class="lead mx-auto mb-4" style="max-width: 720px;">
-          Hand-piped cupcakes in whimsical flavors and soft pastel hues. Perfect for birthdays,
-          weddings, or a little treat-yourself moment.
+          Handcrafted cream puffs and pastel pastries that melt in your mouth —
+          perfect for every celebration or cozy afternoon tea.
         </p>
         <div class="d-flex justify-content-center gap-3 flex-wrap">
-          <a href="#menu" class="btn btn-cupcake btn-lg">View Menu</a>
-          <a href="#custom" class="btn btn-outline-cupcake btn-lg">Order Now</a>
+          <a href="menu.html" class="btn btn-cupcake btn-lg">View Menu</a>
+          <a href="custom.html" class="btn btn-outline-cupcake btn-lg">Order Now</a>
         </div>
       </div>
     </header>
 
-    <!-- FEATURED FLAVORS -->
+    <!-- FEATURED ITEMS -->
     <section id="menu" class="py-5">
       <div class="container">
         <h2 class="text-center mb-4">This Week’s Favorites</h2>
         <div class="row g-4">
           <div class="col-md-6 col-lg-4">
             <div class="card card-cupcake h-100">
-              <img src="images/strawberry-bunny.jpg" class="card-img-top" alt="Strawberry Swirl cupcake" />
+              <img src="images/cupcake1.png" class="card-img-top" alt="Strawberry Puff" />
               <div class="card-body">
-                <h5 class="card-title">Strawberry Swirl</h5>
-                <p class="card-text">Vanilla sponge, strawberry compote core, topped with pink buttercream and sugar pearls.</p>
+                <h5 class="card-title">Strawberry Cream Puff</h5>
+                <p class="card-text">
+                  Light pastry filled with whipped strawberry cream and topped with a sugar dust.
+                </p>
               </div>
               <div class="card-footer bg-transparent">
-                <span class="price-tag">$3.75</span>
+                <span class="price-tag">$4.25</span>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4">
             <div class="card card-cupcake h-100">
-              <img src="images/blue-vanilla.jpg" class="card-img-top" alt="Cotton Cloud vanilla cupcake" />
+              <img src="images/cupcake2.png" class="card-img-top" alt="Vanilla Dream Puff" />
               <div class="card-body">
-                <h5 class="card-title">Cotton Cloud Vanilla</h5>
-                <p class="card-text">Classic vanilla bean with light-blue buttercream and pastel sprinkles.</p>
+                <h5 class="card-title">Vanilla Dream Puff</h5>
+                <p class="card-text">
+                  Soft choux shell filled with vanilla bean cream and topped with pastel glaze.
+                </p>
               </div>
               <div class="card-footer bg-transparent">
-                <span class="price-tag">$3.50</span>
+                <span class="price-tag">$4.00</span>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4">
             <div class="card card-cupcake h-100">
-              <img src="images/lavender-honey.jpg" class="card-img-top" alt="Lavender Honey cupcake" />
+              <img src="images/cupcake3.png" class="card-img-top" alt="Lavender Honey Puff" />
               <div class="card-body">
-                <h5 class="card-title">Lavender Honey</h5>
-                <p class="card-text">Light purple frosting with a hint of lavender and a drizzle of local honey.</p>
+                <h5 class="card-title">Lavender Honey Puff</h5>
+                <p class="card-text">
+                  Light purple glaze with honey drizzle and delicate edible florals.
+                </p>
               </div>
               <div class="card-footer bg-transparent">
-                <span class="price-tag">$3.95</span>
+                <span class="price-tag">$4.50</span>
               </div>
             </div>
           </div>
         </div>
 
         <div class="text-center mt-4">
-          <a class="btn btn-outline-cupcake" href="full-menu.pdf" target="_blank" rel="noopener">Download Full Menu</a>
+          <a class="btn btn-outline-cupcake" href="menu.html">
+            View Full Menu
+          </a>
         </div>
       </div>
     </section>
@@ -115,21 +139,24 @@
       <div class="container">
         <div class="row align-items-center g-4">
           <div class="col-lg-6 order-lg-2 text-center">
-            <img src="images/custom-box.jpg" class="img-fluid rounded-4 shadow-sm"
-                 alt="Custom cupcake box with pastel decorations" />
+            <img
+              src="images/box.png"
+              class="img-fluid rounded-4 shadow-sm"
+              alt="Custom pastry box"
+            />
           </div>
           <div class="col-lg-6 order-lg-1">
             <h2 class="mb-3">Custom Orders & Events</h2>
             <p>
-              From baby showers to weddings, we bake to your theme and palette—pink, light purple, and light blue are our specialty!
-              Choose flavors, fillings, and toppers. We’ll handle the adorable details.
+              Celebrate your special day with pastel-perfect pastries! Choose flavors, fillings,
+              and colors that match your theme — from weddings to birthdays, we make every puff magical.
             </p>
             <ul class="list-unstyled mb-4">
-              <li>• Custom color palettes & toppers</li>
-              <li>• Dietary options available (by request)</li>
+              <li>• Custom pastel designs</li>
+              <li>• Vegan & gluten-free options</li>
               <li>• Pickup or local delivery</li>
             </ul>
-            <a href="https://forms.example.com/cupcake-order" class="btn btn-cupcake">Start a Custom Order</a>
+            <a href="custom.html" class="btn btn-cupcake">Start Your Order</a>
           </div>
         </div>
       </div>
@@ -142,30 +169,18 @@
           <div class="col-lg-6">
             <h2 class="mb-3">Our Story</h2>
             <p>
-              Cottontail Cupcakery began with weekend bakes for friends and quickly hopped into a full-time sweet shop.
-              We focus on small-batch cupcakes with whimsical finishes and melt-in-your-mouth frosting.
+              Usagi Puffs started as a cozy home bakery inspired by soft Japanese-style pastries and cute,
+              dreamy aesthetics. Each puff is baked fresh daily with love, creativity, and pastel perfection.
             </p>
             <div class="d-flex gap-2 flex-wrap mt-2">
+              <span class="badge bg-cupcake">Fresh Daily</span>
+              <span class="badge bg-cupcake">Handmade</span>
               <span class="badge bg-cupcake">Pastel Perfect</span>
-              <span class="badge bg-cupcake">Small-Batch</span>
-              <span class="badge bg-cupcake">Made Daily</span>
             </div>
           </div>
           <div class="col-lg-6 text-center">
-            <img src="images/bakery-case.jpg" class="img-fluid rounded-4 shadow-sm" alt="Bakery case with cupcakes" />
+            <img src="images/logocupcake.png" class="img-fluid rounded-4 shadow-sm" alt="Bakery display case" />
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- VISIT -->
-    <section id="visit" class="py-5 text-center bg-cupcake-soft">
-      <div class="container">
-        <h2 class="mb-3">Visit Our Shop</h2>
-        <p class="mb-4">123 Sweet Lane, Chattanooga, TN • Tue–Sat 9am–6pm</p>
-        <div class="d-flex justify-content-center gap-2 flex-wrap">
-          <a href="https://maps.example.com" class="btn btn-outline-cupcake">Get Directions</a>
-          <a href="tel:+14235550123" class="btn btn-cupcake">Call Us</a>
         </div>
       </div>
     </section>
@@ -173,13 +188,18 @@
     <!-- FOOTER -->
     <footer class="py-4 text-center small text-muted">
       <div class="container">
-        © <span id="year"></span> Cottontail Cupcakery • Baked with love in pastel.
+        © <span id="year"></span> Usagi Puffs • Baked with love and pastel dreams.
       </div>
     </footer>
 
     <script>
-      document.getElementById('year').textContent = new Date().getFullYear();
+      document.getElementById("year").textContent = new Date().getFullYear();
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
+
+
